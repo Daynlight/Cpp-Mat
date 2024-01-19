@@ -1,4 +1,4 @@
-workspace "PixT"  
+workspace "MAT-CPP"  
     configurations { "Test" } 
     language "C++"   
     cppdialect "C++20"
