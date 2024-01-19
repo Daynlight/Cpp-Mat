@@ -3,7 +3,7 @@
 <h1>💕CPP MATH LIB💕</h1>
 
 <h2>🌐About🌐</h2>
-My CPP Mat Lib
+My CPP templated Mat Lib
 
 <h2>📃Usage📃</h2>
 <div align="left">
@@ -16,6 +16,7 @@ My CPP Mat Lib
 
 * Mat::Vec2<type>(values);
 * Mat::Vec3<type>(values);
+* Mat::Vec4<type>(values);
 
 </div>
 
