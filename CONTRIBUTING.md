@@ -37,7 +37,7 @@
   </td>
 </table>
 
-## Main Contributors
+<!-- ## Main Contributors
 
 <table>
   <td align=center>
@@ -48,4 +48,4 @@
 ## Contributors Who Helped With Project
 
 
-</div>
+</div> -->

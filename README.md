@@ -1,10 +1,23 @@
 <div align=center>
   <img width=100% src="Assets/Background.gif">
-<h1>💖Title💖</h1>
+<h1>💕CPP MATH LIB💕</h1>
 
 <h2>🌐About🌐</h2>
+My CPP Mat Lib
 
 <h2>📃Usage📃</h2>
+<div align="left">
+1. Download Released version of header file.<br>
+2. Add header to your project.<br>
+</div>
+
+<h2>🔥Features🔥</h2>
+<div align="left">
+
+* Mat::Vec2<type>(values);
+* Mat::Vec3<type>(values);
+
+</div>
 
 <h2>✨Contributors✨</h2>
 <table align=center>
@@ -17,9 +30,5 @@
     </table>
   </td>
 </table>
-
-<h2>🔥Features🔥</h2>
-
-<img height=200px src="Assets/Features.gif">
 
 </div>
