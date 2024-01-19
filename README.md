@@ -14,9 +14,10 @@ My CPP templated Mat Lib
 <h2>🔥Features🔥</h2>
 <div align="left">
 
-* Mat::Vec2<type>(values);
-* Mat::Vec3<type>(values);
-* Mat::Vec4<type>(values);
+
+* ``` Mat::Vec2<type>(values); ```
+* ``` Mat::Vec3<type>(values); ```
+* ``` Mat::Vec4<type>(values); ```
 
 </div>
 
