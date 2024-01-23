@@ -3,21 +3,45 @@
 <h1>💕CPP MATH LIB💕</h1>
 
 <h2>🌐About🌐</h2>
-My CPP templated Mat Lib
+My CPP templated Math Lib
 
 <h2>📃Usage📃</h2>
 <div align="left">
 1. Download Released version of header file.<br>
 2. Add header to your project.<br>
+3. Use it.
 </div>
 
 <h2>🔥Features🔥</h2>
 <div align="left">
 
+<div align="center">Create</div>
 
 * ``` Mat::Vec2<type>(values); ```
 * ``` Mat::Vec3<type>(values); ```
 * ``` Mat::Vec4<type>(values); ```
+<div align="center">Operators Vector or Number as Vec2</div>
+
+* ``` Vec += Vec2;```
+* ``` Vec -= Vec2;```
+* ``` Vec *= Vec2;```
+* ``` Vec /= Vec2;```
+* ``` Vec %= Vec2;```
+* ``` Vec + Vec2;```
+* ``` Vec - Vec2;```
+* ``` Vec * Vec2;```
+* ``` Vec / Vec2;```
+* ``` Vec % Vec2;```
+* ``` Vec == Vec2;```
+* ``` Vec != Vec2;```
+* ``` Vec > Vec2;```
+* ``` Vec >= Vec2;```
+* ``` Vec < Vec2;```
+* ``` Vec <= Vec2;```
+<div align="center">Functions</div>
+
+* ``` Vec.Distance(); Distance frin 0```
+* ``` Vec.Distance(Vec2); Distance Between Vec and Vec2 ```
 
 </div>
 
