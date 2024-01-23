@@ -40,7 +40,8 @@ My CPP templated Math Lib
 * ``` Vec <= Vec2;```
 <div align="center">Functions</div>
 
-* ``` Vec.Distance(); Distance frin 0```
+* ``` Vec.str(); Get Vector as String```
+* ``` Vec.Distance(); Distance from 0```
 * ``` Vec.Distance(Vec2); Distance Between Vec and Vec2 ```
 
 </div>
