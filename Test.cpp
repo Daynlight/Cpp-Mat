@@ -1,6 +1,7 @@
 #include "Test.h"
 
 int main() {
+	system("color 0a");
 	WorkingTest TestProgram = WorkingTest();
 	TestProgram.ShowAll();
 
