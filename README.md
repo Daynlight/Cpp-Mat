@@ -10,6 +10,7 @@ My CPP templated Math Lib
 1. Download Released version of header file.<br>
 2. Add header to your project.<br>
 3. Use it.
+[Note] For example see Test.cpp on Dev Branch
 </div>
 
 <h2>🔥Features🔥</h2>
