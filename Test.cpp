@@ -11,14 +11,20 @@ void WorkingTest::ShowAll()
 {
 	ShowCreateVec();
 	ShowDistance();
+	ShowAllCompare();
 	ShowAllOperators();
 }
 
 void WorkingTest::ShowAllOperators()
 {
-	ShowCompare();
 	ShowOperatorWithAnotherVec();
 	ShowOperatorWithAnotherNumber();
+}
+
+void WorkingTest::ShowAllCompare()
+{
+	ShowCompareVectors();
+	ShowCompareWithNumber();
 }
 
 void WorkingTest::ShowOperatorWithAnotherVec()
@@ -307,9 +313,9 @@ void WorkingTest::ShowOperatorModuloEquelWithAnotherNumber()
 	std::cout << Vec4.str() + "\n";
 }
 
-void WorkingTest::ShowCompare()
+void WorkingTest::ShowCompareVectors()
 {
-	std::cout << "\n----------------------------- Compare ----------------------------\n";
+	std::cout << "\n----------------------------- Compare Vectors ----------------------------\n";
 	std::cout << Vec2.str() + " == " + Vec2B.str() + " = " + std::to_string(Vec2 == Vec2B) + "\n";
 	std::cout << Vec2.str() + " != " + Vec2B.str() + " = " + std::to_string(Vec2 != Vec2B) + "\n";
 	std::cout << Vec2.Distance() << " > " << Vec2B.Distance() << " = " + std::to_string(Vec2 > Vec2B) + "\n";
@@ -330,4 +336,29 @@ void WorkingTest::ShowCompare()
 	std::cout << Vec4.Distance() << " >= " << Vec4B.Distance() << " = " + std::to_string(Vec4 >= Vec4B) + "\n";
 	std::cout << Vec4.Distance() << " < " << Vec4B.Distance() << " = " + std::to_string(Vec4 < Vec4B) + "\n";
 	std::cout << Vec4.Distance() << " <= " << Vec4B.Distance() << " = " + std::to_string(Vec4 <= Vec4B) + "\n";
+}
+
+void WorkingTest::ShowCompareWithNumber()
+{
+	std::cout << "\n----------------------------- Compare with Number ----------------------------\n";
+	std::cout << Vec2.str() + " == " << Num << " = " + std::to_string(Vec2 == Num) + "\n";
+	std::cout << Vec2.str() + " != " << Num << " = " + std::to_string(Vec2 != Num) + "\n";
+	std::cout << Vec2.Distance() << " > " << Num << " = " + std::to_string(Vec2 > Num) + "\n";
+	std::cout << Vec2.Distance() << " >= " << Num << " = " + std::to_string(Vec2 >= Num) + "\n";
+	std::cout << Vec2.Distance() << " < " << Num << " = " + std::to_string(Vec2 < Num) + "\n";
+	std::cout << Vec2.Distance() << " <= " << Num << " = " + std::to_string(Vec2 <= Num) + "\n";
+
+	std::cout << Vec3.str() + " == " << Num << " = " + std::to_string(Vec3 == Num) + "\n";
+	std::cout << Vec3.str() + " != " << Num << " = " + std::to_string(Vec3 != Num) + "\n";
+	std::cout << Vec3.Distance() << " > " << Num << " = " + std::to_string(Vec3 > Vec3B) + "\n";
+	std::cout << Vec3.Distance() << " >= " << Num << " = " + std::to_string(Vec3 >= Vec3B) + "\n";
+	std::cout << Vec3.Distance() << " < " << Num << " = " + std::to_string(Vec3 < Vec3B) + "\n";
+	std::cout << Vec3.Distance() << " <= " << Num << " = " + std::to_string(Vec3 <= Vec3B) + "\n";
+
+	std::cout << Vec4.str() + " == " << Num << " = " + std::to_string(Vec4 == Num) + "\n";
+	std::cout << Vec4.str() + " != " << Num << " = " + std::to_string(Vec4 != Num) + "\n";
+	std::cout << Vec4.Distance() << " > " << Num << " = " + std::to_string(Vec4 > Num) + "\n";
+	std::cout << Vec4.Distance() << " >= " << Num << " = " + std::to_string(Vec4 >= Num) + "\n";
+	std::cout << Vec4.Distance() << " < " << Num << " = " + std::to_string(Vec4 < Num) + "\n";
+	std::cout << Vec4.Distance() << " <= " << Num << " = " + std::to_string(Vec4 <= Num) + "\n";
 }

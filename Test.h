@@ -5,7 +5,7 @@
 
 class WorkingTest {
 private:
-	Mat::Vec2<int> Vec2 = Mat::Vec2<int>(12, 1);
+	Mat::Vec2<int> Vec2 = Mat::Vec2<int>(5, 10);
 	Mat::Vec3<int> Vec3 = Mat::Vec3<int>(2, 45, 5);
 	Mat::Vec4<int> Vec4 = Mat::Vec4<int>(2, 2, 9, 1);
 	Mat::Vec2<int> Vec2B = Mat::Vec2<int>(12, 1);
@@ -17,6 +17,7 @@ public:
 	void ShowAll();
 
 	void ShowAllOperators();
+	void ShowAllCompare();
 	void ShowOperatorWithAnotherVec();
 	void ShowOperatorWithAnotherNumber();
 
@@ -45,5 +46,6 @@ public:
 	void ShowOperatorDevideEquelWithAnotherNumber();
 	void ShowOperatorModuloEquelWithAnotherNumber();
 
-	void ShowCompare();
+	void ShowCompareVectors();
+	void ShowCompareWithNumber();
 };
