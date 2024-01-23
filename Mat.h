@@ -3,13 +3,9 @@
 #include <math.h>
 
 //[TODO]
-// Distance from origin
-// Compare >=, >, <=, <
 // Matrixes
 // Oprators for Matrixes
 // VEC * Matrix
-
-
 
 namespace Mat {
 	template<typename T>
