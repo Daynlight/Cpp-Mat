@@ -9,7 +9,7 @@ My CPP templated Math Lib
 <div align="left">
 1. Download Released version of header file.<br>
 2. Add header to your project.<br>
-3. Use it.
+3. Use it.<br>
 [Note] For example see Test.cpp on Dev Branch
 </div>
 
